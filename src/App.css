@@ -1,0 +1,52 @@
+.app {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .game-status {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .app {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .game-status {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .app {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-status {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .app {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .game-status {
+    font-size: 20px;
+    margin: 25px 0;
+  }
+
+  .app {
+    padding: 25px;
+  }
+}
